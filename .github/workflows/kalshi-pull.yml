@@ -1,16 +1,15 @@
-# GitHub Actions workflow: pulls Kalshi data weekly and commits kalshi_data.json.
+# GitHub Actions workflow: pulls Kalshi + FRED data weekly and commits the JSON files.
 # In the repo this file must live at:  .github/workflows/kalshi-pull.yml
-name: Kalshi Data Pull
+name: HLH Data Pull
 
 on:
   schedule:
     # 02:00 UTC every Monday = ~8-9 PM Sunday US Central (before the Monday briefing).
-    # Note: GitHub cron is always UTC and does not shift for daylight saving.
     - cron: "0 2 * * 1"
-  workflow_dispatch: {}   # lets you run it manually from the Actions tab anytime
+  workflow_dispatch: {}
 
 permissions:
-  contents: write          # needed so the job can commit the updated JSON back
+  contents: write
 
 jobs:
   pull:
@@ -27,10 +26,13 @@ jobs:
       - name: Pull Kalshi data
         run: python kalshi_pull.py
 
+      - name: Pull FRED data
+        run: python fred_pull.py
+
       - name: Commit updated data (only if it changed)
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add kalshi_data.json
-          git diff --staged --quiet || git commit -m "Update kalshi_data.json ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git add kalshi_data.json fred_data.json
+          git diff --staged --quiet || git commit -m "Update market data ($(date -u +%Y-%m-%dT%H:%MZ))"
           git push

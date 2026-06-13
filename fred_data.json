@@ -1,0 +1,227 @@
+{
+  "pulled_at": "2026-06-13T17:49:21.923009+00:00",
+  "pulled_at_local": "2026-06-13 17:49:21",
+  "source": "FRED public CSV (no API key)",
+  "series": {
+    "DFEDTARU": {
+      "name": "Fed Funds Target \u2014 Upper Bound",
+      "group": "Rates & Policy",
+      "latest_date": "2026-06-13",
+      "latest_value": 3.75,
+      "prior_value": 3.75,
+      "value_1w_ago": 3.75,
+      "value_1m_ago": 3.75,
+      "value_1y_ago": 4.5,
+      "observation_count": 551
+    },
+    "DFEDTARL": {
+      "name": "Fed Funds Target \u2014 Lower Bound",
+      "group": "Rates & Policy",
+      "latest_date": "2026-06-13",
+      "latest_value": 3.5,
+      "prior_value": 3.5,
+      "value_1w_ago": 3.5,
+      "value_1m_ago": 3.5,
+      "value_1y_ago": 4.25,
+      "observation_count": 551
+    },
+    "DGS2": {
+      "name": "2-Year Treasury Yield",
+      "group": "Rates & Policy",
+      "latest_date": "2026-06-11",
+      "latest_value": 4.05,
+      "prior_value": 4.13,
+      "value_1w_ago": 4.05,
+      "value_1m_ago": 4.0,
+      "value_1y_ago": 3.94,
+      "observation_count": 376
+    },
+    "DGS5": {
+      "name": "5-Year Treasury Yield",
+      "group": "Rates & Policy",
+      "latest_date": "2026-06-11",
+      "latest_value": 4.18,
+      "prior_value": 4.27,
+      "value_1w_ago": 4.18,
+      "value_1m_ago": 4.12,
+      "value_1y_ago": 4.02,
+      "observation_count": 376
+    },
+    "DGS10": {
+      "name": "10-Year Treasury Yield",
+      "group": "Rates & Policy",
+      "latest_date": "2026-06-11",
+      "latest_value": 4.45,
+      "prior_value": 4.55,
+      "value_1w_ago": 4.47,
+      "value_1m_ago": 4.46,
+      "value_1y_ago": 4.41,
+      "observation_count": 376
+    },
+    "T10Y2Y": {
+      "name": "10Y-2Y Treasury Spread",
+      "group": "Rates & Policy",
+      "latest_date": "2026-06-12",
+      "latest_value": 0.39,
+      "prior_value": 0.4,
+      "value_1w_ago": 0.38,
+      "value_1m_ago": 0.48,
+      "value_1y_ago": 0.46,
+      "observation_count": 377
+    },
+    "SOFR": {
+      "name": "SOFR",
+      "group": "Rates & Policy",
+      "latest_date": "2026-06-11",
+      "latest_value": 3.6,
+      "prior_value": 3.59,
+      "value_1w_ago": 3.62,
+      "value_1m_ago": 3.6,
+      "value_1y_ago": 4.28,
+      "observation_count": 375
+    },
+    "MORTGAGE30US": {
+      "name": "30-Year Fixed Mortgage Rate",
+      "group": "Rates & Policy",
+      "latest_date": "2026-06-11",
+      "latest_value": 6.52,
+      "prior_value": 6.48,
+      "value_1w_ago": 6.48,
+      "value_1m_ago": 6.37,
+      "value_1y_ago": 6.85,
+      "observation_count": 79
+    },
+    "DPRIME": {
+      "name": "Bank Prime Loan Rate",
+      "group": "Rates & Policy",
+      "latest_date": "2026-06-10",
+      "latest_value": 6.75,
+      "prior_value": 6.75,
+      "value_1w_ago": 6.75,
+      "value_1m_ago": 6.75,
+      "value_1y_ago": 7.5,
+      "observation_count": 385
+    },
+    "DCOILWTICO": {
+      "name": "WTI Crude Oil (spot)",
+      "group": "Inflation & Growth",
+      "latest_date": "2026-06-08",
+      "latest_value": 95.0,
+      "prior_value": 94.32,
+      "value_1w_ago": 95.96,
+      "value_1m_ago": 98.87,
+      "value_1y_ago": 65.3,
+      "observation_count": 371
+    },
+    "CPIAUCSL": {
+      "name": "CPI \u2014 All Items (index)",
+      "group": "Inflation & Growth",
+      "latest_date": "2026-05-01",
+      "latest_value": 333.979,
+      "prior_value": 332.407,
+      "value_1w_ago": 332.407,
+      "value_1m_ago": 332.407,
+      "value_1y_ago": 320.62,
+      "observation_count": 17
+    },
+    "CPILFESL": {
+      "name": "Core CPI (index)",
+      "group": "Inflation & Growth",
+      "latest_date": "2026-05-01",
+      "latest_value": 336.121,
+      "prior_value": 335.423,
+      "value_1w_ago": 335.423,
+      "value_1m_ago": 335.423,
+      "value_1y_ago": 326.893,
+      "observation_count": 17
+    },
+    "PCEPILFE": {
+      "name": "Core PCE (index)",
+      "group": "Inflation & Growth",
+      "latest_date": "2026-04-01",
+      "latest_value": 129.63,
+      "prior_value": 129.321,
+      "value_1w_ago": 129.321,
+      "value_1m_ago": 129.321,
+      "value_1y_ago": 125.502,
+      "observation_count": 17
+    },
+    "INDPRO": {
+      "name": "Industrial Production (index)",
+      "group": "Inflation & Growth",
+      "latest_date": "2026-04-01",
+      "latest_value": 102.4963,
+      "prior_value": 101.806,
+      "value_1w_ago": 101.806,
+      "value_1m_ago": 101.806,
+      "value_1y_ago": 101.1279,
+      "observation_count": 17
+    },
+    "ISRATIO": {
+      "name": "Total Business Inventories-to-Sales",
+      "group": "Trade & Inventory (GFS)",
+      "latest_date": "2026-03-01",
+      "latest_value": 1.32,
+      "prior_value": 1.33,
+      "value_1w_ago": 1.33,
+      "value_1m_ago": 1.35,
+      "value_1y_ago": 1.38,
+      "observation_count": 16
+    },
+    "TLNRESCONS": {
+      "name": "Nonresidential Construction Spending",
+      "group": "Construction & RE (HLC)",
+      "latest_date": "2026-04-01",
+      "latest_value": 1250361.0,
+      "prior_value": 1249526.0,
+      "value_1w_ago": 1249526.0,
+      "value_1m_ago": 1249526.0,
+      "value_1y_ago": 1246937.0,
+      "observation_count": 17
+    },
+    "WPUSI012011": {
+      "name": "PPI \u2014 Inputs to Construction",
+      "group": "Construction & RE (HLC)",
+      "latest_date": "2026-05-01",
+      "latest_value": 363.253,
+      "prior_value": 359.364,
+      "value_1w_ago": 359.364,
+      "value_1m_ago": 359.364,
+      "value_1y_ago": 344.056,
+      "observation_count": 18
+    },
+    "UNRATE": {
+      "name": "Unemployment Rate",
+      "group": "Labor & Credit (LCB)",
+      "latest_date": "2026-05-01",
+      "latest_value": 4.3,
+      "prior_value": 4.3,
+      "value_1w_ago": 4.3,
+      "value_1m_ago": 4.3,
+      "value_1y_ago": 4.3,
+      "observation_count": 17
+    },
+    "DRBLACBS": {
+      "name": "Delinquency Rate \u2014 Business Loans",
+      "group": "Labor & Credit (LCB)",
+      "latest_date": "2026-01-01",
+      "latest_value": 1.34,
+      "prior_value": 1.34,
+      "value_1w_ago": 1.34,
+      "value_1m_ago": 1.34,
+      "value_1y_ago": 1.29,
+      "observation_count": 6
+    },
+    "DRCLACBS": {
+      "name": "Delinquency Rate \u2014 Consumer Loans",
+      "group": "Labor & Credit (LCB)",
+      "latest_date": "2026-01-01",
+      "latest_value": 2.64,
+      "prior_value": 2.62,
+      "value_1w_ago": 2.62,
+      "value_1m_ago": 2.62,
+      "value_1y_ago": 2.77,
+      "observation_count": 6
+    }
+  }
+}
